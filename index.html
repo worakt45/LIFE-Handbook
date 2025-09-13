@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คู่มือการเดินทางเพื่อค้นพบตัวเอง / A Journey of Self-Discovery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', 'Poppins', sans-serif;
+            background-color: #f7fafc; /* gray-100 */
+        }
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background-color: #e2e8f0; /* gray-300 */
+        }
+        .timeline-item {
+            position: relative;
+        }
+        .timeline-icon {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
+        .lang-en { display: none; }
+        .lang-switch-btn.active {
+            background-color: #4A5568; /* gray-700 */
+            color: white;
+        }
+    </style>
+</head>
+<body class="text-gray-700">
+
+    <div class="container mx-auto px-4 py-12 md:py-20 max-w-4xl">
+        
+        <div class="text-right mb-8">
+            <button id="btn-th" class="lang-switch-btn active px-3 py-1 rounded-md text-sm font-semibold bg-gray-200 text-gray-700" onclick="switchLanguage('th')">ไทย</button>
+            <button id="btn-en" class="lang-switch-btn px-3 py-1 rounded-md text-sm font-semibold bg-gray-200 text-gray-700" onclick="switchLanguage('en')">ENG</button>
+        </div>
+
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800">
+                <span class="lang-th">การเดินทางเพื่อค้นพบตัวเอง</span>
+                <span class="lang-en">A Journey of Self-Discovery</span>
+            </h1>
+            <p class="mt-4 text-lg text-gray-500">
+                <span class="lang-th">คู่มือการใช้ 4 เครื่องมือทรงพลังเพื่อทำความเข้าใจตัวเองอย่างเป็นลำดับขั้นตอน</span>
+                <span class="lang-en">A step-by-step guide to using 4 powerful tools for self-understanding</span>
+            </p>
+        </header>
+
+        <div class="relative timeline-container py-10">
+
+            <!-- Step 1: Wheel of Life -->
+            <div class="timeline-item mb-12">
+                <div class="timeline-icon">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-blue-500">☸️</div>
+                </div>
+                <div class="w-full md:w-5/12 ml-auto p-6 bg-white rounded-xl shadow-lg border-l-4 border-blue-500">
+                    <p class="text-sm font-semibold text-blue-600">
+                        <span class="lang-th">ขั้นตอนที่ 1</span>
+                        <span class="lang-en">Step 1</span>
+                    </p>
+                    <h2 class="text-2xl font-bold text-gray-800 mt-1">
+                        <span class="lang-th">วงล้อชีวิต (Wheel of Life)</span>
+                        <span class="lang-en">Wheel of Life</span>
+                    </h2>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">ทำไมต้องเริ่มจากอันนี้?</span>
+                        <span class="lang-en">Why start with this?</span>
+                    </h3>
+                    <p class="mt-2">
+                        <span class="lang-th">เปรียบเสมือนการ "เช็คสุขภาพ" ชีวิตในภาพรวม ช่วยให้คุณเห็นทันทีว่าด้านไหนของชีวิตที่สมดุล และด้านไหนที่ต้องให้ความสำคัญเป็นพิเศษ เป็นการเริ่มต้นที่ง่ายและให้ภาพปัจจุบันที่ชัดเจนที่สุด</span>
+                        <span class="lang-en">It's like a "health check" for your overall life. It quickly shows you which areas are balanced and which need special attention. It's the easiest start and provides the clearest picture of your current situation.</span>
+                    </p>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">สิ่งที่จะได้:</span>
+                        <span class="lang-en">What you'll get:</span>
+                    </h3>
+                    <p class="mt-2 text-green-700 font-medium">
+                        <span class="lang-th">✅ ภาพรวมความสมดุลของชีวิต และจุดที่ควรโฟกัสเพื่อการพัฒนา</span>
+                        <span class="lang-en">✅ An overview of your life balance and focus points for development.</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 2: Maslow's Hierarchy -->
+            <div class="timeline-item mb-12">
+                 <div class="timeline-icon">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-green-500">🪜</div>
+                </div>
+                <div class="w-full md:w-5/12 mr-auto p-6 bg-white rounded-xl shadow-lg border-r-4 border-green-500 text-right md:text-left">
+                    <p class="text-sm font-semibold text-green-600">
+                        <span class="lang-th">ขั้นตอนที่ 2</span>
+                        <span class="lang-en">Step 2</span>
+                    </p>
+                    <h2 class="text-2xl font-bold text-gray-800 mt-1">
+                        <span class="lang-th">ลำดับขั้นของมาสโลว์</span>
+                        <span class="lang-en">Maslow's Hierarchy</span>
+                    </h2>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">ทำไมต้องทำเป็นอันดับสอง?</span>
+                        <span class="lang-en">Why do this second?</span>
+                    </h3>
+                    <p class="mt-2">
+                        <span class="lang-th">หลังจากเห็นภาพรวม เราต้องตรวจสอบ "รากฐาน" ของชีวิต มาสโลว์ช่วยให้คุณสำรวจว่าความต้องการพื้นฐานที่สุดได้รับการเติมเต็มแล้วหรือยัง เพราะหากฐานไม่มั่นคง การสร้างเป้าหมายที่สูงขึ้นอาจเป็นไปได้ยาก</span>
+                        <span class="lang-en">After seeing the big picture, we must check the "foundation" of our lives. Maslow helps you explore whether your most basic needs are met. If the foundation isn't stable, achieving higher goals can be difficult.</span>
+                    </p>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">สิ่งที่จะได้:</span>
+                        <span class="lang-en">What you'll get:</span>
+                    </h3>
+                    <p class="mt-2 text-green-700 font-medium">
+                        <span class="lang-th">✅ ความเข้าใจในความต้องการพื้นฐานที่อาจยังขาดหายไป</span>
+                        <span class="lang-en">✅ An understanding of any basic needs that may be unfulfilled.</span>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Step 3: Ikigai -->
+            <div class="timeline-item mb-12">
+                <div class="timeline-icon">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-purple-500">🎯</div>
+                </div>
+                <div class="w-full md:w-5/12 ml-auto p-6 bg-white rounded-xl shadow-lg border-l-4 border-purple-500">
+                     <p class="text-sm font-semibold text-purple-600">
+                        <span class="lang-th">ขั้นตอนที่ 3</span>
+                        <span class="lang-en">Step 3</span>
+                    </p>
+                    <h2 class="text-2xl font-bold text-gray-800 mt-1">
+                        <span class="lang-th">อิคิไก (Ikigai)</span>
+                        <span class="lang-en">Ikigai</span>
+                    </h2>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">ทำไมต้องทำเป็นอันดับสาม?</span>
+                        <span class="lang-en">Why do this third?</span>
+                    </h3>
+                    <p class="mt-2">
+                        <span class="lang-th">เมื่อฐานมั่นคงแล้ว ก็ถึงเวลา "ค้นหาเข็มทิศ" เพื่อมองไปข้างหน้า อิคิไกจะช่วยเชื่อมโยงสิ่งที่คุณรัก, สิ่งที่ถนัด, สิ่งที่โลกต้องการ และสิ่งที่สร้างรายได้ เพื่อค้นหาเป้าหมายและทิศทางชีวิตที่มีความหมาย</span>
+                        <span class="lang-en">Once the foundation is secure, it's time to "find your compass" and look ahead. Ikigai helps connect what you love, what you're good at, what the world needs, and what you can be paid for to find a meaningful life purpose and direction.</span>
+                    </p>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">สิ่งที่จะได้:</span>
+                        <span class="lang-en">What you'll get:</span>
+                    </h3>
+                    <p class="mt-2 text-green-700 font-medium">
+                        <span class="lang-th">✅ เป้าหมายและทิศทางชีวิตที่ชัดเจนและเป็นแรงผลักดัน</span>
+                        <span class="lang-en">✅ A clear and motivating life purpose and direction.</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 4: PERMA -->
+            <div class="timeline-item">
+                 <div class="timeline-icon">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-yellow-500">😊</div>
+                </div>
+                <div class="w-full md:w-5/12 mr-auto p-6 bg-white rounded-xl shadow-lg border-r-4 border-yellow-500 text-right md:text-left">
+                     <p class="text-sm font-semibold text-yellow-600">
+                        <span class="lang-th">ขั้นตอนที่ 4</span>
+                        <span class="lang-en">Step 4</span>
+                    </p>
+                    <h2 class="text-2xl font-bold text-gray-800 mt-1">PERMA</h2>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">ทำไมต้องทำเป็นอันดับสุดท้าย?</span>
+                        <span class="lang-en">Why do this last?</span>
+                    </h3>
+                    <p class="mt-2">
+                        <span class="lang-th">เมื่อมีเป้าหมายแล้ว ขั้นสุดท้ายคือการทำให้ "การเดินทางมีความสุข" ในทุกวัน PERMA คือเครื่องมือวัดระดับและสร้างองค์ประกอบของความสุขในชีวิตประจำวัน เพื่อให้การไปสู่เป้าหมายเป็นไปอย่างราบรื่น</span>
+                        <span class="lang-en">With a goal in mind, the final step is to make the "journey joyful" every day. PERMA is a tool to measure and build the components of well-being in daily life, ensuring a smooth path to your goals.</span>
+                    </p>
+                    <h3 class="font-semibold text-gray-600 mt-4">
+                        <span class="lang-th">สิ่งที่จะได้:</span>
+                        <span class="lang-en">What you'll get:</span>
+                    </h3>
+                    <p class="mt-2 text-green-700 font-medium">
+                        <span class="lang-th">✅ วิธีการสร้างและเติมเต็มความสุขในชีวิตประจำวัน</span>
+                        <span class="lang-en">✅ Methods to create and enhance well-being in your daily life.</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="text-center mt-16 pt-8">
+            <p class="text-lg text-gray-800 font-semibold">
+                <span class="lang-th">เริ่มต้นการเดินทางของคุณได้เลย!</span>
+                <span class="lang-en">Start your journey now!</span>
+            </p>
+            <p class="text-gray-500 mt-2">
+                <span class="lang-th">การลงทุนเพื่อทำความเข้าใจตัวเอง คือการลงทุนที่คุ้มค่าที่สุด</span>
+                <span class="lang-en">Investing in self-understanding is the most rewarding investment.</span>
+            </p>
+        </footer>
+
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            const thElements = document.querySelectorAll('.lang-th');
+            const enElements = document.querySelectorAll('.lang-en');
+            const btnTh = document.getElementById('btn-th');
+            const btnEn = document.getElementById('btn-en');
+
+            if (lang === 'en') {
+                thElements.forEach(el => el.style.display = 'none');
+                enElements.forEach(el => el.style.display = 'inline');
+                document.documentElement.lang = 'en';
+                btnEn.classList.add('active');
+                btnTh.classList.remove('active');
+            } else {
+                thElements.forEach(el => el.style.display = 'inline');
+                enElements.forEach(el => el.style.display = 'none');
+                document.documentElement.lang = 'th';
+                btnTh.classList.add('active');
+                btnEn.classList.remove('active');
+            }
+        }
+        // Set default language
+        switchLanguage('th');
+    </script>
+
+</body>
+</html>
+
